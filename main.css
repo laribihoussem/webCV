@@ -1,0 +1,39 @@
+.main-header{
+    background-image: url(h2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}   
+.centered{
+    text-align: center;
+}
+.main-div li{
+    color: whitesmoke;
+    display: inline-block;
+    list-style: none;
+}
+.main-div a{
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 25px;
+    font-weight: bold;
+}
+#el1{
+    color: tomato;
+    
+}
+.espacee{
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.padbot{
+    padding-bottom: 30px;
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+.padleft{
+    padding-left: 25px;
+}
