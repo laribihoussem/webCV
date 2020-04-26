@@ -5,6 +5,9 @@
     color: white;
     font-family: Montserrat, sans-serif;
     margin: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
 }   
 .centered{
     text-align: center;
@@ -17,16 +20,24 @@
 .main-div a{
     color: whitesmoke;
     font-size: 25px;
-    padding: 25px;
+    padding-right: 25px;
     font-weight: bold;
+}
+.main-div a:hover,
+.main-div a:active{
+    color: darkred;
 }
 #el1{
     color: tomato;
     
 }
 .espacee{
-    padding-top: 30px;
-    padding-bottom: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
 }
 .padbot{
     padding-bottom: 40px;
@@ -48,7 +59,7 @@
     margin: 0;
 }
 .padbot1{
-    padding-bottom: 40px;
+    padding-bottom: 18px;
     margin: 0;
 }
 .about{
@@ -56,6 +67,14 @@
     border-bottom: 2px solid white;
     padding-top: 100px ;
     padding-bottom: 25px;
+}
+.ab{
+    color:whitesmoke ;
+}
+.ab:hover,
+.ab:active{
+    color: tomato;
+    text-decoration: none;
 }
 .colored{
     color: beige;
@@ -67,6 +86,13 @@
 .edu{
     color: darkgray;
     border-bottom: 2px solid turquoise;
+    width: 70%;
+    
+}
+.edu1{
+    color: darkgray;
+    border-bottom: 2px solid turquoise;
+    width: 40%;
     
 }
 .text-right{
@@ -76,4 +102,23 @@
     border-bottom: 3px solid darkgray;
     padding-bottom: 20px;
     margin-bottom: 10px;
+}
+.list{
+    list-style: none;
+}
+.margleft{
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+    padding: 50px 0px;
+}
+.col{
+    color: wheat;
+}
+#colo{
+    color: whitesmoke;
+}
+.bim{
+    background-image: url(h.png);
 }
