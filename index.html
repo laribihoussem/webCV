@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
    <nav>
-    <div class="main-div espacee centered bg-dark">   
+    <div class="main-div navv centered bg-dark ">   
         <ul>
             <li><a id="el1" href="#Home"> Home</a></li>
             <li><a href="#about">About  </a></li>
@@ -229,15 +230,37 @@
             </div>
         </div>
     </div>
-    <div class="bim">
+    <div class="bim padbot0 padtop">
         <div class="container">
-            <h4> fill the form for any question </h4>
+            <h4 class="padbot"> Fill the form for any question </h4>
             <div class="row">
                 <div class="col-md-8">
-                    
+                    <form action="/action_page.php" style="max-width:500px;margin:auto">
+                        <div class="input-container">
+                          <i class="fa fa-user icon"></i>
+                          <input class="input-field" type="text" placeholder="Username" name="usrnm">
+                        </div>
+                      
+                        <div class="input-container">
+                          <i class="fa fa-envelope icon"></i>
+                          <input class="input-field" type="text" placeholder="Email" name="email">
+                        </div>
+                        
+                        <div class="input-container">
+                          <i class="fa fa-envelope icon"></i>
+                          <input class="input-field" type="text" placeholder="Question" name="question">
+                        </div>
+                      
+                        <button type="submit" class="btn">Submit</button>
+                      </form>
                 </div>
                 <div class="col-md_4">
-                    
+                    <ul id="detail" class="colored">
+                        <li><h5>Laribi Houssem</h5></li>
+                        <li><h5>5025 Bennane Monastir</h5></li>
+                        <li><h5>123456789</h5></li>
+                        <li><h5>houssem.laribi@website.email.fr</h5></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -250,7 +273,7 @@
                 <li class="list-inline-item padleft"><a href=""><img class="img img-thumbnail" src="insta4.png" alt="instagram"></a></li>
                 <li class="list-inline-item padleft"><a href=""><img class="img img-thumbnail" src="git2.png" alt="github"></a></li>
                 <li class="list-inline-item padleft"><a href=""><img class="img img-thumbnail" src="link4.png" alt="linkedn"></a></li>
-           
+            </ul>
         </div>
     </footer>
 </body>
