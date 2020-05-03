@@ -1,5 +1,5 @@
 .main-header{
-    background-image: url(h2.png);
+    background-image: url('./img/h2.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -32,6 +32,7 @@
     
 }
 .navv{
+    z-index: 9;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0;
@@ -121,7 +122,7 @@ footer{
     color: whitesmoke;
 }
 .bim{
-    background-image: url(h.png);
+    background-image: url('./img/h.png');
 }
 .input-container {
     display: -ms-flexbox; /* IE10 */
@@ -163,3 +164,18 @@ footer{
   .btn:hover {
     opacity: 1;
   }
+
+.social-icons i {
+    background: white;
+    border-radius: 20%;
+    font-size: 28px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: #343a40;
+}
+
+.btn-submit {
+    background-color: #e96043 !important;
+}
